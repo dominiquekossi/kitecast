@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# builds
+dist
+.next
+out
+build
+
+# turbo
+.turbo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# testing / misc
+coverage
+*.tsbuildinfo
+next-env.d.ts
+
+# verification screenshots (scripts/screenshot.js)
+.artifacts
