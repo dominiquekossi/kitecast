@@ -1,0 +1,7 @@
+{
+  "extends": "@kitecast/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-native"
+  },
+  "include": ["src", "nativewind-env.d.ts"]
+}
